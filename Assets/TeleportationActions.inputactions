@@ -1,0 +1,34 @@
+{
+    "name": "TeleportationActions",
+    "maps": [
+        {
+            "name": "Teleportation",
+            "id": "50b11f28-b717-4e64-a442-bde8ee2ec18b",
+            "actions": [
+                {
+                    "name": "ActivateTeleportation",
+                    "type": "Button",
+                    "id": "c2053c05-92d9-4ea6-a5ba-c8173311dc6d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f5519982-ec75-4ae2-9934-3cd5ec8b3965",
+                    "path": "<XRController>{RightHand}/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ActivateTeleportation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
